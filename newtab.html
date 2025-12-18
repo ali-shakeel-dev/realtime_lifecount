@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>New Tab</title>
+
+  <style>
+    html,
+    body {
+      margin: 0;
+      height: 100%;
+      background: black;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, monospace;
+    }
+
+    .container {
+      display: flex;
+      align-items: flex-end;
+      gap: 0.4rem;
+    }
+
+    .label {
+      position: absolute;
+      top: -1.2rem;
+      left: 0;
+      font-size: 1rem;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      opacity: 0.6;
+    }
+
+    .years {
+      font-size: 6rem;
+      font-weight: 600;
+      line-height: 1;
+    }
+
+    .fraction {
+      font-size: 2rem;
+      opacity: 0.6;
+      transform: translateY(-0.4rem);
+    }
+
+    .wrapper {
+      position: relative;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <div class="label">AGE</div>
+    <div class="container">
+      <div class="years" id="years">0</div>
+      <div class="fraction" id="fraction">.000000000</div>
+    </div>
+  </div>
+
+  <script src="newtab.js"></script>
+</body>
+
+</html>
