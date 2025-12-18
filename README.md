@@ -12,4 +12,4 @@ Life Age New Tab is a Chrome extension that displays your life age in real time 
 
 **Screenshot:**
 
-![NewTab](NewTab.jpg)
+![NewTab](./NewTab.jpg)
